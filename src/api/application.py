@@ -15,7 +15,7 @@ class HelloWorld(BaseApiClass):
 
 
 
-api.add_resource(Upload, '/hello_world/')
+api.add_resource(HelloWorld, '/hello_world/')
 
 
 if __name__ == '__main__':
